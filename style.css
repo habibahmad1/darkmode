@@ -34,16 +34,22 @@ nav a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 250px;
 }
 
 article {
-  width: 800px;
+  width: 400px;
   margin: 20px;
   border: 1px solid #00a7fa;
   background-color: #fff;
   padding: 20px;
   border-radius: 20px;
   box-shadow: 5px 5px 5px #024363;
+}
+
+article img {
+  width: 100%;
+  border-radius: 20px;
 }
 
 article h3 {
